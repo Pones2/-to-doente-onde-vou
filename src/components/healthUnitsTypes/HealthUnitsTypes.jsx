@@ -12,7 +12,7 @@ const HealthUnitsTypes = () => {
             title={"UBS"}
             subtitle={"Unidade Básica de Saúde"}
             definition={
-              "Locais onde os usuários recebem vacinas, troca de curativos, injeções, atendimento médico para diagnóstico e/ou tratamento odontológico."
+              "Locais onde os usuários recebem vacinas, troca de curativos, injeções, atendimento médico para diagnóstico/tratamento e atendimento odontológico."
             }
           />
 
@@ -20,7 +20,7 @@ const HealthUnitsTypes = () => {
             title={"UPA"}
             subtitle={"Unidade de Pronto Atendimento"}
             definition={
-              "Locais onde os usuários recebem vacinas, troca de curativos, injeções, atendimento médico para diagnóstico e/ou tratamento odontológico."
+              "Funcionam 24 horas por dia, 7 dias por semana e podem resolver grande parte das urgências e emergências, como pressão e febre alta, fraturas, cortes, infarto e derrame."
             }
           />
 
@@ -28,7 +28,7 @@ const HealthUnitsTypes = () => {
             title={"SAMU"}
             subtitle={"Unidade Básica de Saúde"}
             definition={
-              "Locais onde os usuários recebem vacinas, troca de curativos, injeções, atendimento médico para diagnóstico e/ou tratamento odontológico."
+              "Central de regulação que conta com profissionais de saúde e médicos treinados para dar orientações de primeiros socorros por telefone. Disque 192."
             }
           />
 

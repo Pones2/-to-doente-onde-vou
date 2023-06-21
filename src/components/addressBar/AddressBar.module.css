@@ -1,0 +1,36 @@
+.bar {
+  display: flex;
+  gap: 16px;
+}
+
+.inputContainer {
+  border: 1px solid #e1e5eb;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  overflow: hidden;
+}
+
+.input {
+  background-color: transparent;
+  display: block;
+  height: 100%;
+  padding: 12px;
+  align-self: stretch;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+.locationIcon {
+  background-color: transparent;
+  display: block;
+  width: 52px;
+  height: 100%;
+  border: none;
+  border-right: 1px solid #e1e5eb;
+  background: url("../../assets/addressBar/location_searching.svg") no-repeat center center;
+}

@@ -1,0 +1,68 @@
+.imageContainer {
+  display: block;
+  width: 212px;
+  height: 212px;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+}
+
+.unit {
+  display: grid;
+  grid-template-columns: 212px 1fr;
+  align-items: start;
+  gap: 28px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: #052450;
+}
+
+.infoList li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.infoList li p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #282829;
+}
+
+.link {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #939396;
+  text-decoration: underline;
+}
+
+.addressIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../assets/unit/pin_drop.svg") no-repeat center center;
+}
+
+.timeIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../assets/unit/schedule.svg") no-repeat center center;
+}
+
+.phoneIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../assets/unit/call.svg") no-repeat center center;
+}
+
+.mapsIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../assets/unit/directions.svg") no-repeat center center;
+}

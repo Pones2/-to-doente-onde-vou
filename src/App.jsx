@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
-import Router from "./router/Router";
 import Header from "./components/header/Header";
+import Router from "./router/Router";
 import Footer from "./components/footer/Footer";
 import "./App.css";
 
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Header />
 
-        <main className="container">
+        <main>
           <Router />
         </main>
 

@@ -2,9 +2,9 @@
   display: flex;
   place-content: center;
   height: 68px;
-  background-color: #F5F9FF;
+  background-color: #f5f9ff;
   padding: 24px 0px;
-  margin-top: 120px;
+  border-top: 1px solid #cdd1d6;
 }
 
 .footer p {

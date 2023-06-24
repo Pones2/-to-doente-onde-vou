@@ -5,21 +5,21 @@
 }
 
 .title {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 400;
   color: #052450;
   margin-bottom: 12px;
 }
 
 .subtitle {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   color: #052450;
 }
 
 .definition {
   border-left: 1px solid #cdd1d6;
-  padding-left: 32px;
+  padding-left: 28px;
   font-size: 20px;
   line-height: 1.5;
   color: #282829;

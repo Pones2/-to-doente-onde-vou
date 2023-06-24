@@ -1,0 +1,182 @@
+[
+  {
+    "nome": "Norden Hospital",
+    "endereco": "Av. Getúlio Vargas, nº 740 - Jardim Lutfalla, São Carlos - SP, 13570-390",
+    "telefone": "01633632200",
+    "convenio": true,
+    "tipo": "hospital",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "Pronto Atendimento Hospital Unimed São Carlos",
+    "endereco": "Rua Dona Alexandrina, 1683 - Centro, São Carlos - SP, 13560-290",
+    "telefone": "01621077500",
+    "convenio": true,
+    "tipo": "hospital",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "Hospital Universitário da UFSCar",
+    "endereco": "R. Luís Vaz de Camões, 111 - Vila Celina, São Carlos - SP, 13566-448",
+    "telefone": "01635092400",
+    "convenio": false,
+    "tipo": "hospital",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "Santa Casa São Carlos",
+    "endereco": "R. Paulino Botelho de Abreu Sampaio, 535 - Jardim Pureza, São Carlos - SP, 13561-060",
+    "telefone": "01635091100",
+    "convenio": false,
+    "tipo": "hospital",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "São Francisco Saúde - São Carlos",
+    "endereco": "R. Paulino Botelho de Abreu Sampaio, 800 - Jardim Bethania, São Carlos - SP, 13561-060",
+    "telefone": "01621064817",
+    "convenio": true,
+    "tipo": "hospital",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "UBS ARACY ERNESTO PEREIRA LOPES",
+    "endereco": "R. Sebastião Lemos, 426 - Cidade Aracy, São Carlos - SP, 13573-108",
+    "telefone": "01633661444",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Redenção PS Dr Lauro Corsi",
+    "endereco": "R. Des. Júlio de Faria, 1700 - Vila Prado, São Carlos - SP, 13575-005",
+    "telefone": "01633711327",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Botafogo",
+    "endereco": "Av. José Pereira Lopes, 1650 - Jardim Botafogo, São Carlos - SP, 13547-300",
+    "telefone": "01633642220",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Santa Felícia - Benjamim Lopez Osores",
+    "endereco": "Rua Joaquim A, R. Joaquim Augusto Ribeiro de Souza, 40 - Parque Santa Felicia Jardim, São Carlos - SP, 13562-100",
+    "telefone": "1633712984",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Santa Paula",
+    "endereco": "R. Luís Saia, 44 - Jardim Santa Paula, São Carlos - SP, 13564-010",
+    "telefone": "01633713089",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Parque Delta",
+    "endereco": "Rua Pedro Cavarette, 151 - Jardim Parque Delta, São Carlos - SP, 13564-490",
+    "telefone": "01633614677",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Cruzeiro do Sul",
+    "endereco": "R. Basílio Dibbo, 1055 - Jardim Cruzeiro do Sul, São Carlos - SP, 13572-060",
+    "telefone": "01633753433",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Vila Isabel",
+    "endereco": "R. Vicente de Carvalho, 566 - Vila Izabel, São Carlos - SP, 13570-593",
+    "telefone": "01633681516",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Azulville",
+    "endereco": "Avenida Madre Marie Blanche Jardim, 102 - Azulville I, São Carlos - SP, 13571-000",
+    "telefone": "01633681110",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS São José",
+    "endereco": "Av. Araraquara, 422 - Vila Brasilia, São Carlos - SP, 13566-770",
+    "telefone": "01633614675",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 8,
+    "horarioDuracao": 9
+  },
+  {
+    "nome": "UBS Vila Nery",
+    "endereco": "R. da Imprensa, 410 - Vila Faria, São Carlos - SP, 13569-160",
+    "telefone": "01633715806",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "UBS Fagá",
+    "endereco": "Vila, Av. João de Lourenço, 40 - Maria Stella Faga, São Carlos - SP, 13568-250",
+    "telefone": "01633718039",
+    "convenio": false,
+    "tipo": "UBS",
+    "horarioAbre": 7,
+    "horarioDuracao": 10
+  },
+  {
+    "nome": "Unidade de Pronto Atendimento - UPA Vila Prado",
+    "endereco": "Av. Grécia, 229 - Vila Prado, São Carlos - SP, 13574-140",
+    "telefone": "01633712100",
+    "convenio": false,
+    "tipo": "UPA",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "UNIDADE DE PRONTO ATENDIMENTO UPA CIDADE ARACY",
+    "endereco": "R. Reinaldo Pizani, 357 - Cidade Aracy, São Carlos - SP, 13573-228",
+    "telefone": "01633755133",
+    "convenio": false,
+    "tipo": "UPA",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  },
+  {
+    "nome": "UPA Santa Felícia - São Carlos",
+    "endereco": "R. Dr. João Navarro Siquerolli, s/n - Parque Santa Felicia Jardim, São Carlos - SP, 13563-714",
+    "telefone": "01633742165",
+    "convenio": false,
+    "tipo": "UPA",
+    "horarioAbre": 0,
+    "horarioDuracao": 24
+  }
+]

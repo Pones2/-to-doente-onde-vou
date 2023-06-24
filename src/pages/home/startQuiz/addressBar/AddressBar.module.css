@@ -28,9 +28,9 @@
 .locationIcon {
   background-color: transparent;
   display: block;
-  width: 52px;
+  width: 48px;
   height: 100%;
   border: none;
   border-right: 1px solid #e1e5eb;
-  background: url("../../assets/addressBar/location_searching.svg") no-repeat center center;
+  background: url("../../../../assets/addressBar/location_searching.svg") no-repeat center center;
 }

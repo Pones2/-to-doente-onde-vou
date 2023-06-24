@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 212px 1fr;
   align-items: start;
-  gap: 28px;
+  gap: 24px;
 }
 
 .name {

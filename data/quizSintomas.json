@@ -1,82 +1,81 @@
-{
-    "perguntas":[
+
+    [
        {
           "numero" : 1,
-          "pegunta" : "Qual é a sua faixa etária?",
+          "pergunta" : "Qual é a sua faixa etária?",
           "respostas" : ["Menos de 18 anos", "18-30 anos", "31-50 anos","Mais de 50 anos"],
           "tipo" : 0,
           "pesos":[30, 27, 25, 20]
        },
        {
           "numero" : 2,
-          "pegunta" : "Você está com sensação de aperto no peito ou dor torácica?",
+          "pergunta" : "Você está com sensação de aperto no peito ou dor torácica?",
           "respostas" : ["Sim", "Não", "Não tenho certeza"],
           "tipo" : 1,
           "pesos":[999, 0, 10]
        },
        {
           "numero" : 3,
-          "pegunta" : "Você está apresentando Febre?",
+          "pergunta" : "Você está apresentando Febre?",
           "respostas" : ["Febre (>37.5 && <39)", "Febre alta (>39)", "Sem Febre (<37.5)"],
           "tipo" : 1,
           "pesos":[7, 15, 0]
        },
        {
           "numero" : 4,
-          "pegunta" : "Você está com alterações no apetite?",
+          "pergunta" : "Você está com alterações no apetite?",
           "respostas" : ["Sim", "Não", "Não tenho certeza"],
           "tipo" : 1,
           "pesos":[3, 0, 1]
        },
        {
           "numero" : 5,
-          "pegunta" : "Você viajou recentemente para alguma área de surto de doenças?",
+          "pergunta" : "Você viajou recentemente para alguma área de surto de doenças?",
           "respostas" : ["Sim", "Não", "Não tenho certeza"],
           "tipo" : 1,
           "pesos":[5, 0, 1]
        },
        {
           "numero" : 6,
-          "pegunta" : "Você está com falta de ar?",
+          "pergunta" : "Você está com falta de ar?",
           "respostas" : ["Sim", "Não", "Não tenho certeza"],
           "tipo" : 1,
           "pesos":[10, 0, 5]
        },
        {
           "numero" : 7,
-          "pegunta" : "Você está com algum dos seguintes sintomas gastrointestinais?",
+          "pergunta" : "Você está com algum dos seguintes sintomas gastrointestinais?",
           "respostas" : ["Diarreia", "Vômitos", "Nenhum dos anteriores"],
           "tipo" : 2,
           "pesos":[5, 5, 0]
        },
        {
           "numero" : 8,
-          "pegunta" : "Você está com algum dos seguintes sintomas neurológicos?",
+          "pergunta" : "Você está com algum dos seguintes sintomas neurológicos?",
           "respostas" : ["Dor de cabeça intensa", "Tontura persistente", "Nenhum dos anteriores"],
           "tipo" : 2,
           "pesos":[5, 5, 0]
        },
        {
           "numero" : 9,
-          "pegunta" : "Você está com algum dos seguintes sintomas respiratórios?",
+          "pergunta" : "Você está com algum dos seguintes sintomas respiratórios?",
           "respostas" : ["Congestão nasal", "Coriza", "Nenhum dos anteriores"],
           "tipo" : 2,
           "pesos":[3, 3, 0]
        },
        {
           "numero" : 10,
-          "pegunta" : "Você está sentindo fadiga excessiva?",
+          "pergunta" : "Você está sentindo fadiga excessiva?",
           "respostas" : ["Sim", "Não", "Não tenho certeza"],
           "tipo" : 1,
           "pesos":[5, 0, 3]
        },
        {
           "numero" : 11,
-          "pegunta" : "Você está apresentando algum dos seguintes sintomas?",
+          "pergunta" : "Você está apresentando algum dos seguintes sintomas?",
           "respostas" : ["Tosse", "Dor de garganta", "Nenhum dos anteriores"],
           "tipo" : 2,
           "pesos":[3, 3, 0]
        }
               
     ]
- }

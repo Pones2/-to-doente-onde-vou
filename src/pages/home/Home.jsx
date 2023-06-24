@@ -1,8 +1,8 @@
 import React from "react";
-import About from "../../components/about/About";
-import HealthUnits from "../../components/healthUnits/HealthUnits";
-import HealthUnitsTypes from "../../components/healthUnitsTypes/HealthUnitsTypes";
-import StartQuiz from "../../components/startQuiz/StartQuiz";
+import About from "./about/About";
+import HealthUnits from "./healthUnits/HealthUnits";
+import HealthUnitsTypes from "./healthUnitsTypes/HealthUnitsTypes";
+import StartQuiz from "./startQuiz/StartQuiz";
 
 const Home = () => {
   const [unidades, setUnidades] = React.useState(null);

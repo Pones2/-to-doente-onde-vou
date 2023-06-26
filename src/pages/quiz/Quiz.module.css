@@ -2,6 +2,7 @@
 	max-width: 520px;
 	margin: 64px auto;
 	display: grid;
+	padding: 0px 24px;
 }
 
 .content {
@@ -13,7 +14,7 @@
 .counter {
 	display: inline-block;
 	text-align: center;
-  font-size: 16px;
+	font-size: 16px;
 	font-weight: 500;
 	margin-bottom: 32px;
 	justify-self: center;
@@ -30,14 +31,37 @@
 }
 
 .controls {
-  justify-self: center;
-  margin-top: 12px;
-  display: flex;
-  gap: 24px;
+	justify-self: center;
+	margin-top: 12px;
+	display: flex;
+	gap: 24px;
 }
 
 .question {
 	font-size: 20px;
-  margin-bottom: 24px;
+	margin-bottom: 24px;
 	line-height: 1.4;
+}
+
+@media (max-width: 520px) {
+	.counter {
+		font-size: 14px;
+		margin-bottom: 20px;
+		justify-self: center;
+	}
+
+	.questionContainer {
+		max-width: 400px;
+		margin-top: 32px;
+		padding: 0px 12px;
+	}
+
+	.content {
+		min-height: 240px;
+	}
+
+	.question {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
 }

@@ -36,3 +36,25 @@
 	border-color: #00bd9d;
 	background-color: #00bd9d;
 }
+
+@media (max-width: 520px) {
+	.options {
+		gap: 8px;
+	}
+
+	.option {
+		font-size: 12px;
+		gap: 4px;
+		padding: 4px;
+	}
+
+	.checked {
+		height: 16px;
+		width: 16px;
+		border-radius: 2px;
+	}
+
+	.checkIcon {
+		background-image: url("../../../assets/questions/check-s.svg");
+	}
+}

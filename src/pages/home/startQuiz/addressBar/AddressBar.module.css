@@ -1,36 +1,70 @@
 .bar {
-  display: flex;
-  gap: 16px;
+	display: flex;
+	gap: 16px;
+	width: 100%;
 }
 
 .inputContainer {
-  border: 1px solid #e1e5eb;
-  background-color: white;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  width: 560px;
-  overflow: hidden;
+	border: 1px solid #e1e5eb;
+	background-color: white;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	flex: 1;
+	overflow: hidden;
 }
 
 .input {
-  background-color: transparent;
-  display: block;
-  height: 100%;
-  padding: 12px;
-  align-self: stretch;
-  border: none;
-  outline: none;
-  flex: 1;
-  font-size: 16px;
+	background-color: transparent;
+	display: block;
+	height: 100%;
+	padding: 12px;
+	align-self: stretch;
+	border: none;
+	outline: none;
+	flex: 1;
+	font-size: 16px;
 }
 
 .locationIcon {
-  background-color: transparent;
-  display: block;
-  width: 48px;
-  height: 100%;
-  border: none;
-  border-right: 1px solid #e1e5eb;
-  background: url("../../../../assets/addressBar/location_searching.svg") no-repeat center center;
+	background-color: transparent;
+	display: block;
+	width: 48px;
+	height: 100%;
+	border: none;
+	border-right: 1px solid #e1e5eb;
+	background: url("../../../../assets/addressBar/location_searching.svg")
+		no-repeat center center;
+}
+
+@media (max-width: 840px) {
+	.bar {
+		display: grid;
+		justify-items: center;
+		gap: 12px;
+		width: 100%;
+	}
+
+	.inputContainer {
+		justify-self: stretch;
+	}
+}
+
+@media (max-width: 640px) {
+	.bar {
+		justify-items: stretch;
+		gap: 8px;
+	}
+}
+
+@media (max-width: 520px) {
+	.input {
+		padding: 10px 8px;
+		font-size: 12px;
+	}
+
+	.locationIcon {
+		width: 36px;
+		background-image: url("../../../../assets/addressBar/location_searching-s.svg");
+	}
 }

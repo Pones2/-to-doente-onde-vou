@@ -1,5 +1,5 @@
 .section {
-	padding: 44px 0px 72px 0px;
+	padding: 36px 0px 64px 0px;
 }
 
 .about,
@@ -7,11 +7,18 @@
 	background-color: #f5f9ff;
 }
 
+.start {
+	padding-top: 40px;
+}
+
 .about {
 	padding-bottom: 120px;
 }
 
 .startContent {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 840px;
 	display: grid;
 	place-content: center;
 	place-items: center;
@@ -19,6 +26,7 @@
 }
 
 .start h1 {
+	text-align: center;
 	font-size: 56px;
 	font-weight: 600;
 	color: #052450;
@@ -37,6 +45,7 @@
 	font-weight: 500;
 	color: #052450;
 	margin-bottom: 44px;
+	line-height: 1.2;
 }
 
 .sectionTitle::after {
@@ -66,4 +75,92 @@
 	font-size: 20px;
 	line-height: 1.5;
 	color: #282829;
+}
+
+@media (max-width: 840px) {
+	.section {
+		padding: 32px 0px 56px 0px;
+	}
+
+	.start {
+		padding-top: 36px;
+		padding-bottom: 48px;
+	}
+
+	.start h1 {
+		font-size: 48px;
+	}
+
+	.units {
+		gap: 32px;
+	}
+}
+
+@media (max-width: 640px) {
+	.start h1 {
+		font-size: 44px;
+	}
+
+	.start p {
+		font-size: 18px;
+		margin-bottom: 24px;
+	}
+
+	.text {
+		font-size: 16px;
+	}
+
+	.sectionTitle {
+		font-size: 32px;
+		margin-bottom: 36px;
+	}
+
+	.sectionTitle::after {
+		width: 44px;
+		height: 2px;
+		border-radius: 4px;
+		margin-top: 2px;
+	}
+
+	.unitsTypes {
+		gap: 16px;
+	}
+}
+
+@media (max-width: 520px) {
+	.section {
+		padding: 20px 0px 40px 0px;
+	}
+
+	.start {
+		padding-top: 24px;
+	}
+
+	.start h1 {
+		font-size: 32px;
+		margin-bottom: 16px;
+	}
+
+	.start p {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.sectionTitle {
+		font-size: 24px;
+		margin-bottom: 28px;
+	}
+
+	.sectionTitle::after {
+		width: 28px;
+		margin-top: 2px;
+	}
+
+	.unitsTypes {
+		gap: 8px;
+	}
+
+	.text {
+		font-size: 12px;
+	}
 }

@@ -1,14 +1,24 @@
 .footer {
-  display: flex;
-  place-content: center;
-  height: 68px;
-  background-color: #f5f9ff;
-  padding: 24px 0px;
-  border-top: 1px solid #cdd1d6;
+	display: flex;
+	place-content: center;
+	height: 68px;
+	background-color: #f5f9ff;
+	padding: 24px 0px;
+	border-top: 1px solid #cdd1d6;
 }
 
 .footer p {
-  font-size: 16px;
-  color: #282829;
-  font-weight: 600;
+	font-size: 16px;
+	color: #282829;
+	font-weight: 600;
+}
+
+@media (max-width: 520px) {
+	.footer {
+		padding: 12px 0;
+	}
+
+	.footer p {
+		font-size: 12px;
+	}
 }

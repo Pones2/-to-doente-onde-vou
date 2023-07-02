@@ -21,6 +21,18 @@
 	color: #052450;
 }
 
+.name.distanceName {
+	margin-bottom: 4px;
+}
+
+.distance {
+	display: block;
+	margin-bottom: 12px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #282829;
+}
+
 .infoList li {
 	display: flex;
 	gap: 8px;
@@ -29,9 +41,13 @@
 }
 
 .infoList li p {
+	color: #282829;
+}
+
+.infoList li p,
+.infoList li a {
 	font-size: 20px;
 	line-height: 1.3;
-	color: #282829;
 }
 
 .link {
@@ -85,7 +101,8 @@
 		height: 320px;
 	}
 
-	.name {
+	.name,
+	.distance {
 		text-align: center;
 	}
 }
@@ -136,9 +153,17 @@
 		font-size: 20px;
 	}
 
+	.name.distanceName {
+		margin-bottom: 6px;
+	}
+
 	.imageContainer {
 		width: 100%;
 		height: 240px;
+	}
+
+	.distance {
+		font-size: 14px;
 	}
 
 	.infoList li {
@@ -146,7 +171,7 @@
 	}
 
 	.infoList li p,
-	.link {
+	.infoList li a {
 		font-size: 12px;
 	}
 

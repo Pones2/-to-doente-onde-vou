@@ -1,43 +1,55 @@
 import styles from "./HealthUnit.module.css";
 
 const HealthUnit = ({ data, distance }) => {
-	return (
-		<div className={styles.unit}>
-			<div className={styles.imageContainer}></div>
+  let horario = "";
 
-			<div className={styles.infoContainer}>
-				<h3 className={`${styles.name} ${distance && styles["distanceName"]}`}>
-					{data.nome}
-				</h3>
+  if (data.horarioDuracao == 24) {
+    horario = "24 horas";
+  } else {
+    horario =
+      data.horarioAbre.toString() +
+      "hrs - " +
+      (data.horarioAbre + data.horarioDuracao).toString() +
+      "hrs";
+  }
 
-				{distance && (
-					<span className={styles.distance}>{distance} km de distância</span>
-				)}
+  return (
+    <div className={styles.unit}>
+      <div className={styles.imageContainer}></div>
 
-				<ul className={styles.infoList}>
-					<li>
-						<i className={styles.addressIcon} />
-						<p>{data.endereco}</p>
-					</li>
+      <div className={styles.infoContainer}>
+        <h3 className={`${styles.name} ${distance && styles["distanceName"]}`}>
+          {data.nome}
+        </h3>
 
-					<li>
-						<i className={styles.timeIcon} />
-						<p>teste - teste</p>
-					</li>
+        {distance && (
+          <span className={styles.distance}>{distance} km de distância</span>
+        )}
 
-					<li>
-						<i className={styles.phoneIcon} />
-						<p>{data.telefone}</p>
-					</li>
+        <ul className={styles.infoList}>
+          <li>
+            <i className={styles.addressIcon} />
+            <p>{data.endereco}</p>
+          </li>
 
-					<li>
-						<i className={styles.mapsIcon} />
-						<a className={styles.link}>abrir com o Google Maps</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	);
+          <li>
+            <i className={styles.timeIcon} />
+            <p>{horario}</p>
+          </li>
+
+          <li>
+            <i className={styles.phoneIcon} />
+            <p>{data.telefone}</p>
+          </li>
+
+          <li>
+            <i className={styles.mapsIcon} />
+            <a className={styles.link}>abrir com o Google Maps</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default HealthUnit;

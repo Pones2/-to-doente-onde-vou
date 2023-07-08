@@ -5,3 +5,9 @@
   height: 72px;
   border-bottom: 1px solid #cdd1d6;
 }
+
+img{
+  height: 50px;
+  margin-left: 50px;
+  padding: 5px;
+}
